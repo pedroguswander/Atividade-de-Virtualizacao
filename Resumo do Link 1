@@ -1,0 +1,10 @@
+1. Virutalização é uma tecnologia que simula dispositivos, máquinas, físicos em um ambiente digital, abstraindo o
+Hardware e bare-metal.
+
+2 - 41 - Servidores de máquinas são, nas primeiras ondas, de propiedade do cliente para mantaer a infraesturtura e virtualizaçãi de seu data-center. O escopo da nuvem é muito maior
+e dinâmico, com foco em ser um ecossistema de recursos de TI para atender diversos clientes e coorproraçõs.
+
+6 - A virtualização facilita a vida de desenvolvedores de software em relação ao acoplamento entre dependênncias. Com a virtualização, é possível criar máquinas virtuais independentes,
+chamadas de aplicações virtuais, com SO próprio carregado, bibliotecas e outras dependências com conflitos resolvidos e devidamente instaladas. Assim, se entrega ao cliente um software
+compactado, pronto e elaborado.
+
