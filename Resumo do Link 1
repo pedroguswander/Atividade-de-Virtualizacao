@@ -8,3 +8,8 @@ e dinâmico, com foco em ser um ecossistema de recursos de TI para atender diver
 chamadas de aplicações virtuais, com SO próprio carregado, bibliotecas e outras dependências com conflitos resolvidos e devidamente instaladas. Assim, se entrega ao cliente um software
 compactado, pronto e elaborado.
 
+4 - Uma vantagem é a possibilidade da multiprogramação e um servidor físico hospedar diversos servidores virtuais (cada um com N possibilidades de serviços disponíveis e com a capacidade
+de atender a N clientes e aplicações. O que aumenta a produtividade computacional exponencialmente
+
+19 - 
+
