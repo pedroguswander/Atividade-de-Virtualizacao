@@ -1,0 +1,30 @@
+Google Cloud - a seção Google Cloud Engine é responsável pelo serviço de infraestrutura ao cliente (IaaS).
+Por meio do google cloud console é possível instanciar uma máquina virutal, indicando a zona em que
+deve de "hosting" dessa máquina, o sistema operacional nativo e seu tipo, tamanho do disco e quantidade de
+memória. Vale notar que todos os recursos dessa VM são elásticos. Por meio do cloud, é sempre possível
+potencializar, aumentar memória ou hostear web servers nessas VM's
+
+Oracle Cloud Infrastructure - Na Oracle Cloud Infrastructure (OCI), o serviço fundamental para a infraestrutura como serviço (IaaS) é o Compute.
+Através do console da OCI, a criação de uma máquina virtual Linux é um processo direto. Inicialmente, o usuário navega
+até a seção de Compute e seleciona a opção de criar uma instância. Nesse momento, é possível especificar o compartimento
+e o domínio de disponibilidade onde a máquina será provisionada, definindo assim a localização física ("hosting") da VM.
+A escolha do sistema operacional Linux desejado, juntamente com sua versão, é feita na seleção da imagem. Adicionalmente,
+o tipo de hardware da VM, incluindo o tamanho do disco de inicialização e a quantidade de memória, é configurado durante a criação.
+É importante destacar que todos os recursos dessa máquina virtual na OCI são elásticos, oferecendo a flexibilidade de aumentar
+a capacidade de processamento, expandir a memória ou adaptar o armazenamento conforme as demandas da aplicação, como por exemplo, ao hospedar servidores web.
+
+
+Micrososft Azure - No Microsoft Azure, a base para a oferta de infraestrutura como serviço (IaaS) reside no serviço Azure Virtual Machines. Utilizando o portal do Azure,
+a instanciação de uma máquina virtual Linux se inicia com a busca e seleção do serviço de Máquinas Virtuais, seguida pela ação de adicionar uma nova VM. Durante a configuração,
+o usuário define o grupo de recursos e a região do Azure onde a máquina será hospedada, estabelecendo assim sua localização. A seleção da distribuição Linux desejada e sua versão
+é feita na etapa de escolha da imagem. Em seguida, o tamanho da máquina virtual é especificado, abrangendo o número de vCPUs, a quantidade de memória RAM e as opções de disco.
+Uma característica essencial das máquinas virtuais do Azure é a sua elasticidade, permitindo ajustar dinamicamente o tamanho da VM, adicionar discos de dados e configurar as funcionalidades
+de rede para atender às necessidades de diversas cargas de trabalho, incluindo o hosting de aplicações web.
+
+Na Amazon Web Services (AWS), o serviço essencial que fornece infraestrutura como serviço (IaaS) é o Amazon Elastic Compute Cloud (EC2). Através do AWS Management Console, o processo de criação
+de uma instância Linux EC2 começa com a seleção da opção de executar instâncias. O usuário então escolhe uma Amazon Machine Image (AMI) que contém o sistema operacional Linux
+desejado e sua respectiva versão. Em seguida, define-se o tipo de instância, que determina as características de hardware da VM, como o número de vCPUs e a quantidade de memória.
+Ao configurar os detalhes da instância, é possível especificar a Virtual Private Cloud (VPC) e a sub-rede onde a máquina será iniciada, além de configurar um endereço IP público, se necessário.
+É fundamental notar que os recursos das instâncias EC2 são elásticos, possibilitando a alteração do tipo de instância,
+o dimensionamento do armazenamento Elastic Block Store (EBS) e a adaptação da configuração de rede para suportar uma ampla gama de aplicações, incluindo a hospedagem de servidores web.
+
