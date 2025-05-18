@@ -11,5 +11,32 @@ compactado, pronto e elaborado.
 4 - Uma vantagem é a possibilidade da multiprogramação e um servidor físico hospedar diversos servidores virtuais (cada um com N possibilidades de serviços disponíveis e com a capacidade
 de atender a N clientes e aplicações. O que aumenta a produtividade computacional exponencialmente
 
-19 - 
+19 - Tipo 1: Instalado diretamente no bare-metal da placa mãe. Não existe SO hospedeiro que medie a alocação entre recursos para as VM's, então
+o hipervisor é o próprio orquestrador privilegiado que faz esse gerenciamento dinâmmico de cópias do HW nativo.
+Tipo 2: existem um SO hospedeiro que medie o processo de gerenciamento, ou seja, o hipervisor tipo 2 solicita recursos de HW e fica dependente
+da eficiência do SO hospedeiro em alocar esses recursos. Cada VM é independente, tendo um ambiente virtual seguro com a quantidade de recursos
+estabelecidos para utilização sendo limitada.
 
+99 - Os tipos de virtualização mais pertinentes para um resumo abrangente incluem a virtualização de servidores, fundamental para otimizar recursos
+e base da computação em nuvem; a virtualização de desktops, que possibilita o acesso remoto e a gestão centralizada de ambientes de trabalho;
+e a virtualização de redes, crucial para a flexibilidade e escalabilidade da infraestrutura de TI moderna.
+
+52 - A virtualização encontra seus principais casos de uso na consolidação de servidores, reduzindo custos e otimizando o uso de recursos;
+na criação de ambientes de teste e desenvolvimento isolados, essenciais para a agilidade no ciclo de vida do software; na implementação de soluções de recuperação
+de desastres e continuidade de negócios, garantindo a resiliência dos sistemas; e como a base fundamental para a infraestrutura de computação em nuvem, permitindo
+a oferta de serviços escaláveis e sob demanda.
+
+79 - Apesar de seus inúmeros benefícios, a virtualização apresenta desvantagens como o potencial aumento da complexidade na gestão e configuração dos ambientes virtuais;
+a sobrecarga de recursos do hardware físico devido à execução de múltiplos sistemas operacionais simultaneamente; e a possibilidade de ocorrerem gargalos de desempenho
+caso a infraestrutura subjacente não seja adequadamente dimensionada para suportar a carga de trabalho virtualizada.
+
+80 - Resumo: Na virtualização para computação em nuvem, a principal distinção entre máquinas virtuais e contêineres reside no nível de isolamento e compartilhamento de recursos.
+Máquinas virtuais emulam um sistema operacional completo, oferecendo isolamento robusto entre os ambientes. Contêineres, por outro lado, compartilham o kernel do sistema operacional host,
+tornando-os mais leves e eficientes em termos de consumo de recursos, porém com um isolamento menos completo em comparação com as VMs.
+
+30 - Resumo: A virtualização opera através da implementação de uma camada de software, conhecida como hypervisor, que abstrai os recursos do hardware físico (como CPU, memória e armazenamento).
+Essa abstração permite que múltiplos sistemas operacionais e aplicações rodem de forma simultânea e isolada em um único hardware físico, cada um dentro de uma máquina virtual 
+que se comporta como um computador independente com seus próprios recursos virtuais alocados pelo hypervisor.
+
+
+ 
